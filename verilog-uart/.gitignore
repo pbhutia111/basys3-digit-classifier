@@ -1,0 +1,8 @@
+build/
+runs/
+.Xil/
+*.jou
+*.log
+*.str
+__pycache__/
+verification/sim/

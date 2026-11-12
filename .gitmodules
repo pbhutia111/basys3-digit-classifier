@@ -1,0 +1,6 @@
+[submodule "repos/neural-net-on-fpga"]
+	path = repos/neural-net-on-fpga
+	url = https://github.com/ZakriyaParacha46/neural-net-on-fpga.git
+[submodule "repos/SNN-FPGA"]
+	path = repos/SNN-FPGA
+	url = https://github.com/InduwaraGunasena/SNN-FPGA.git

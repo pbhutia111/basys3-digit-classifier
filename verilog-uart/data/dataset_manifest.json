@@ -1,0 +1,20 @@
+{
+  "dataset": "MNIST original test split",
+  "images": 10000,
+  "shape": [
+    10000,
+    28,
+    28
+  ],
+  "pixel_format": "uint8 grayscale, bright digit on dark background, original order",
+  "source_cache": "Local Keras dataset cache (machine-specific path omitted)",
+  "source_url": "https://storage.googleapis.com/tensorflow/tf-keras-datasets/mnist.npz",
+  "source_sha256": "731c5ac602752760c8e48fbffcf8c3b850d9dc2a2aedcf2cc48468fc17b673d1",
+  "matches_official_keras_sha256": true,
+  "stored_file": "mnist_test.npz",
+  "stored_sha256": "ccf443a257931c4aa72248a9ce1c5cc703ff0d0ec030b94dffbad7514219afa7",
+  "copyright": "MNIST by Yann LeCun and Corinna Cortes; derived from NIST",
+  "license_as_documented_by_keras": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+  "preprocessing": "None. Original pixels and labels copied; training split excluded."
+}

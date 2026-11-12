@@ -1,0 +1,32 @@
+{
+    "status":  "INCOMPLETE",
+    "disposition":  "SUPERSEDED_BY_PHYSICAL_TEST",
+    "scope":  "final 50 MHz native-MMCM post-synthesis functional simulation",
+    "tool":  "Vivado/XSim 2026.1",
+    "board_input_clock_hz":  100000000,
+    "inference_clock_hz":  50000000,
+    "uart_baud":  115200,
+    "checkpoint_sha256":  "E58E7B1D0B7B39E5C9DF37D6123BA706B1CE5B0576EAACD17C9D20DF8826E0A2",
+    "completed_simulation_checks":  [
+                                        "real synthesized MMCME2_BASE and BUFG elaboration",
+                                        "startup/reset release and initially blank display",
+                                        "UART transmission progress through at least 392 of 784 pixels"
+                                    ],
+    "final_netlist_inference_completed":  false,
+    "full_bench_pass_claimed":  false,
+    "stop_reason":  "Root intentionally stopped this redundant simulation after the final timing-clean bitstream passed all ten selected digit samples on the actual Basys 3 through COM8. No final-netlist simulation pass is claimed.",
+    "physical_test_report":  "../../reports/hardware_smoke.json",
+    "physical_test_summary":  {
+                                  "result":  "PASS",
+                                  "physical_hardware_test":  true,
+                                  "port":  "COM8",
+                                  "matching_predictions":  10,
+                                  "selected_samples":  10,
+                                  "inference_cycles":  50986,
+                                  "inference_ms":  1.01972,
+                                  "display_visually_verified":  false
+                              },
+    "baseline_note":  "The obsolete 100 MHz baseline completed two native-UART post-synthesis inferences and reset recovery. Its functional pass is recorded separately; that design failed timing and is not the final design.",
+    "baseline_report":  "baseline_100mhz_report.json",
+    "simulation_log":  "simulation_final_50mhz_incomplete.log"
+}

@@ -1,0 +1,9 @@
+* text=auto
+*.cmd text eol=crlf
+*.v text eol=lf
+*.tcl text eol=lf
+*.py text eol=lf
+*.mem text eol=lf
+*.png binary
+*.raw binary
+*.npz binary

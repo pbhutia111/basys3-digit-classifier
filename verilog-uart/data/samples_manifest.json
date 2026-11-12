@@ -1,0 +1,97 @@
+{
+  "purpose": "Convenient demonstration examples, selected for correctness; not an accuracy test",
+  "dataset": "mnist_test.npz",
+  "raw_format": "784 unsigned pixel bytes, row-major, no header",
+  "samples": [
+    {
+      "test_index": 3,
+      "label": 0,
+      "reference_prediction": 0,
+      "selection": "First correctly predicted example of this label in original test order",
+      "png": "samples/digit_0_index_00003.png",
+      "raw": "samples/digit_0_index_00003.raw",
+      "raw_sha256": "d469b96b1201daeb1aa385cf83dfb3d55f49579157daa5aeb936cde7995d0fba"
+    },
+    {
+      "test_index": 2,
+      "label": 1,
+      "reference_prediction": 1,
+      "selection": "First correctly predicted example of this label in original test order",
+      "png": "samples/digit_1_index_00002.png",
+      "raw": "samples/digit_1_index_00002.raw",
+      "raw_sha256": "202fbd31d4b64a8f78be5e3e77ad25a0b7760b9fd2255b5a7a6cec300987754b"
+    },
+    {
+      "test_index": 1,
+      "label": 2,
+      "reference_prediction": 2,
+      "selection": "First correctly predicted example of this label in original test order",
+      "png": "samples/digit_2_index_00001.png",
+      "raw": "samples/digit_2_index_00001.raw",
+      "raw_sha256": "3f8c3b265b6083fb0e5c68b6a5631b0d23bfe4cafce3c55e1b6a9cce9308ded2"
+    },
+    {
+      "test_index": 30,
+      "label": 3,
+      "reference_prediction": 3,
+      "selection": "First correctly predicted example of this label in original test order",
+      "png": "samples/digit_3_index_00030.png",
+      "raw": "samples/digit_3_index_00030.raw",
+      "raw_sha256": "46bb4b0e3ed89ae11838067c700ae1120e8de16f869866c5d6e4aa30d69ed526"
+    },
+    {
+      "test_index": 4,
+      "label": 4,
+      "reference_prediction": 4,
+      "selection": "First correctly predicted example of this label in original test order",
+      "png": "samples/digit_4_index_00004.png",
+      "raw": "samples/digit_4_index_00004.raw",
+      "raw_sha256": "f3351a8e0127fe9f17226c57e5e63618f2f8e53ae7d298b7f0e68507f3be2b67"
+    },
+    {
+      "test_index": 15,
+      "label": 5,
+      "reference_prediction": 5,
+      "selection": "First correctly predicted example of this label in original test order",
+      "png": "samples/digit_5_index_00015.png",
+      "raw": "samples/digit_5_index_00015.raw",
+      "raw_sha256": "1429e672ec8cff85ac24b0e0d10ba976feff252862540ceefd84047547e550fa"
+    },
+    {
+      "test_index": 11,
+      "label": 6,
+      "reference_prediction": 6,
+      "selection": "First correctly predicted example of this label in original test order",
+      "png": "samples/digit_6_index_00011.png",
+      "raw": "samples/digit_6_index_00011.raw",
+      "raw_sha256": "418aa04f181697c0cc7ad7f7200515413b5b64f53bf63508c546b7d50498b117"
+    },
+    {
+      "test_index": 0,
+      "label": 7,
+      "reference_prediction": 7,
+      "selection": "First correctly predicted example of this label in original test order",
+      "png": "samples/digit_7_index_00000.png",
+      "raw": "samples/digit_7_index_00000.raw",
+      "raw_sha256": "8f6a418c9a639f9e14e96feca47a97df2a35a0a68ae2875431c5c80e05536941"
+    },
+    {
+      "test_index": 84,
+      "label": 8,
+      "reference_prediction": 8,
+      "selection": "First correctly predicted example of this label in original test order",
+      "png": "samples/digit_8_index_00084.png",
+      "raw": "samples/digit_8_index_00084.raw",
+      "raw_sha256": "14275792aaf67ead872fb43b04051698a66fbfc6894ac6834c6d725dd036cbe9"
+    },
+    {
+      "test_index": 7,
+      "label": 9,
+      "reference_prediction": 9,
+      "selection": "First correctly predicted example of this label in original test order",
+      "png": "samples/digit_9_index_00007.png",
+      "raw": "samples/digit_9_index_00007.raw",
+      "raw_sha256": "d6fc219c748f35bdb93756d2cf6f198efdf25ac5ae7ee84e7708850d67f87355"
+    }
+  ]
+}

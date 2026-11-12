@@ -1,0 +1,13 @@
+{
+  "result": "PASS",
+  "simulator": "Vivado XSim 2026.1",
+  "subject": "Unmodified upstream inference_engine.v and weight_rom.v",
+  "mnist_original_test_indices": "0 through 19",
+  "predictions_compared": 20,
+  "hidden_activations_compared": 640,
+  "signed_logits_compared": 200,
+  "cycles_from_start_acceptance_to_done": 50985,
+  "clock_hz": 100000000,
+  "reset_between_inferences": false,
+  "physical_hardware_test": false
+}

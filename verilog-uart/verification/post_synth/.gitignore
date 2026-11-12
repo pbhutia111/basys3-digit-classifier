@@ -1,0 +1,11 @@
+# Regenerated Vivado/XSim artifacts; keep scripts, bench, and JSON reports.
+basys3_mnist_funcsim.v
+xsim.dir/
+.Xil/
+*.log
+*.jou
+*.wdb
+*.pb
+*.str
+sample_pixels.mem
+sample_expected.mem

@@ -1,0 +1,23 @@
+﻿{
+    "result":  "PASS",
+    "completed_utc":  "2026-11-02T17:32:13.7628635Z",
+    "simulator":  "AMD Vivado XSim 2026.1",
+    "testbench":  "../../tb/tb_camera_wiring_test.v",
+    "checks":  [
+                   "All four independent SCL/SDA switch states",
+                   "Released outputs are Z without external pull-ups; no active HIGH drive",
+                   "External weak pull-ups raise released lines; active lows remain low",
+                   "RESET remains asserted and UART remains idle",
+                   "LED0/1 mirror synchronized switches and unused LEDs remain off",
+                   "Forwarded clock toggles in simulation bypass mode"
+               ],
+    "limitations":  [
+                        "MMCM bypass is enabled; physical 25 MHz output and cable quality are not verified",
+                        "LED15 heartbeat period is not exercised"
+                    ],
+    "logs":  [
+                 "compile.log",
+                 "elaborate.log",
+                 "simulation.log"
+             ]
+}

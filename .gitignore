@@ -1,0 +1,35 @@
+.venv/
+tools/
+build/
+__pycache__/
+.pytest_cache/
+*.pyc
+*.jou
+*.log
+*.pb
+.Xil/
+repos/
+runs/
+
+# Local media, scratch work, credentials, and personal image uploads
+/output/
+/tmp/
+.env
+.env.*
+*.pem
+*.key
+verilog-uart/data/samples/Untitled*
+
+# Generated Vivado/simulation output and machine-specific reports
+reports/
+xsim.dir/
+*.bit
+*.dcp
+*.wdb
+*.str
+*.rpt
+*.exe
+*.dll
+*.sdb
+*.rlx
+clockInfo.txt

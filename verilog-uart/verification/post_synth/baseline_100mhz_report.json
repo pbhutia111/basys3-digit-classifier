@@ -1,0 +1,21 @@
+﻿{
+    "status":  "passed",
+    "design":  "obsolete 100 MHz baseline; timing failed, not for board use",
+    "functional_only":  true,
+    "uart_baud":  115200,
+    "inference_clock_hz":  100000000,
+    "predictions":  [
+                        7,
+                        7
+                    ],
+    "cycles_per_inference":  50986,
+    "checks":  [
+                   "power-up blanking",
+                   "actual UART packet receive/transmit",
+                   "initialized pretrained weights",
+                   "segment and LED outputs",
+                   "button reset",
+                   "successful inference after reset"
+               ],
+    "simulation_cpu_seconds":  480.062
+}

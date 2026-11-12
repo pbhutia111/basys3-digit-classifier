@@ -1,0 +1,111 @@
+{
+  "hex_format": "One value per line; $readmemh-compatible. 8-bit pixels/predictions/hidden, 32-bit two's-complement logits.",
+  "sample_pixels.mem": {
+    "shape": [
+      784
+    ],
+    "test_index": 0
+  },
+  "expected_digit.mem": {
+    "shape": [
+      1
+    ],
+    "meaning": "Reference class for original test index0"
+  },
+  "sample_expected.mem": {
+    "shape": [
+      1
+    ],
+    "meaning": "Alias of expected_digit.mem for UART testbench"
+  },
+  "test_pixels.mem": {
+    "shape": [
+      20,
+      784
+    ],
+    "test_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "order": "image then row then column"
+  },
+  "test_expected.mem": {
+    "shape": [
+      20
+    ],
+    "meaning": "Model predictions, NOT ground-truth labels"
+  },
+  "test_labels.mem": {
+    "shape": [
+      20
+    ],
+    "meaning": "Ground-truth labels"
+  },
+  "test_hidden.mem": {
+    "shape": [
+      20,
+      32
+    ],
+    "order": "image then hidden neuron"
+  },
+  "test_logits.mem": {
+    "shape": [
+      20,
+      10
+    ],
+    "order": "image then output neuron"
+  },
+  "representative_pixels.mem": {
+    "shape": [
+      10,
+      784
+    ],
+    "test_indices": [
+      3,
+      2,
+      1,
+      30,
+      4,
+      15,
+      11,
+      0,
+      84,
+      7
+    ]
+  },
+  "representative_expected.mem": {
+    "shape": [
+      10
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  }
+}
